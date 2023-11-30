@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.titulo-pagina {
+  margin-bottom: 20px;
+}
+
+.contenedor-tabla {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#miTabla {
+  margin-top: 20px;
+
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 100vh; 
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 100px;
+}
+
+
+.h2 {
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.crud-buttons button {
+  margin-right: 5px;
+}
+
+.update-button {
+  display: none;
+}
+
+.edit-mode input {
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+
+.filtros-container {
+  position: absolute;
+  top: 20px;
+  right: 200px;
+}
+
+.filtros-container label, .filtros-container input, .filtros-container button {
+  margin: 5px;
+}
